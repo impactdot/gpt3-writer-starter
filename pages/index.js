@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import buildspaceLogo from "../assets/buildspace-logo.png";
+import twitterLogo from "../assets/twitter-logo.png";
 import { useState } from "react";
 
 const Home = () => {
@@ -35,6 +35,10 @@ const Home = () => {
     return (
         <div className="root">
             <Head>
+                {/* <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1"
+                /> */}
                 <title>Magic Email Writing Assistant</title>
             </Head>
             <div className="container">
@@ -91,13 +95,13 @@ const Home = () => {
             </div>
             <div className="badge-container grow">
                 <a
-                    href="https://buildspace.so/builds/ai-writer"
+                    href="https://twitter.com/0xzeroImpact"
                     target="_blank"
                     rel="noreferrer"
                 >
                     <div className="badge">
-                        <Image src={buildspaceLogo} alt="buildspace logo" />
-                        <p>build with buildspace</p>
+                        <Image src={twitterLogo} alt="twitter logo" />
+                        <p>checkout my twitter</p>
                     </div>
                 </a>
             </div>
